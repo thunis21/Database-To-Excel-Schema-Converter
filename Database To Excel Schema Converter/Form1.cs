@@ -43,7 +43,7 @@ namespace Database_To_Excel_Schema_Converter
                 ws.Cells[0, 0].Value = "Column Name";
                 ws.Cells[0,0].ColumnWidth= 800;
                 ws.Cells[0, 1].Value = "Data Type";
-                ws.Cells[0, 1].ColumnWidth = 400;
+                ws.Cells[0, 1].ColumnWidth = 300;
 
                 for (int i = 0; i < dtSort.Rows.Count; i++)
                 {
